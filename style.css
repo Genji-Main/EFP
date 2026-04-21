@@ -31,6 +31,28 @@ footer {
 }
 
 nav {
-  height: 72px;
-  padding-bottom: 0;
+  height: 52px;
+
+}
+ul.topnav {
+  float: right;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+
+ul.topnav li a {
+  display: block;
+  color: rgb( 222, 184, 135);
+  padding: 7px 5px;
+  text-decoration: none;
+}
+
+
+ul.topnav li a:hover {
+  background-color: #dddddd;
+  color: black;
 }
