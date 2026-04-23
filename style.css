@@ -31,11 +31,10 @@ footer {
 }
 
 nav {
-  height: 52px;
+  height: 75px;
 
 }
 ul.topnav {
-  height: 75px;
   float: right;
   display: flex;
   list-style-type: none;
@@ -50,6 +49,7 @@ ul.topnav li a {
   color: rgb( 222, 184, 135);
   padding: 7px 5px;
   text-decoration: none;
+  font-size: 75px;
 }
 
 
