@@ -36,7 +36,8 @@ nav {
 
 }
 ul.topnav {
-  float: right;
+  font-size: 50px;
+  float: center;
   display: flex;
   list-style-type: none;
   margin: 0;
