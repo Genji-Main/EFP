@@ -67,11 +67,30 @@ h1 {
   margin-top: 0px;
 }
 .Home{
+
+ul.topnav {
+  height: 75px;
   font-size: 50px;
-  position: left;
+  float: Left;
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #000000;
+}
+
+ul.topnav li a {
+  height: 75px;
+  display: block;
+  color: rgb( 222, 184, 135);
+  padding: 7px 5px;
+  text-decoration: none;
+}
+
+
+ul.topnav li a:hover {
+  height: 75px;
+  background-color: #dddddd;
+  color: rgb( 222, 184, 135);
+}
 }
