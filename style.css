@@ -2,6 +2,7 @@ body {
   font-family: nunito;
 background-color: rgb(40, 40, 40);
 font-size: 3.0rem;
+margin: 0px;
 }
 
 p {
@@ -45,11 +46,11 @@ ul.topnav {
 
 
 ul.topnav li a {
+  height: 75px;
   display: block;
   color: rgb( 222, 184, 135);
   padding: 7px 5px;
   text-decoration: none;
-  font-size: 75px;
 }
 
 
