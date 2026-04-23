@@ -8,7 +8,7 @@ p {
 
 font-family: nunito;
 font-size: 3.0rem;
-color: blanchedalmond;
+color: rgb( 222, 184, 135);
 background-color: rgb(40, 40, 40);
 }
 
@@ -54,5 +54,5 @@ ul.topnav li a {
 
 ul.topnav li a:hover {
   background-color: #dddddd;
-  color: black;
+  color: rgb( 222, 184, 135);
 }
