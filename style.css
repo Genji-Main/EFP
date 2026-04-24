@@ -31,7 +31,6 @@ footer {
 }
 
 ul.topnav li a {
-border: 2px;
 display: flex;
 padding: 8px 8px;
 text-decoration: none;
