@@ -63,25 +63,3 @@ ul.topnav li a:hover {
 h1 { 
   margin-top: 0px;
 } 
-ul.homenav li a {
-display: flex;
-color:aliceblue;
-padding: 8px 8px;
-text-decoration: none;
-}
-
-ul.homenav {
-  float:left;
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  background-color: gray;}
-
-  ul.homenav li a:hover {
-  height: 75px;
-  background-color: #ffffff;
-  color: rgb( 222, 184, 135);
-  background-color: black;
-  color: white;
-
-}
