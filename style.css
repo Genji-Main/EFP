@@ -32,7 +32,7 @@ footer {
 }
 
 ul.topnav li a {
-display: block;
+display: flex;
 color:aliceblue;
 padding: 8px 8px;
 text-decoration: none;
@@ -53,10 +53,8 @@ nav {
 
 ul.topnav li a:hover {
   height: 75px;
-<<<<<<< HEAD
   background-color: #ffffff;
   color: rgb( 222, 184, 135);
-
   background-color: black;
   color: white;
 
@@ -66,7 +64,7 @@ h1 {
   margin-top: 0px;
 } 
 ul.homenav li a {
-display: block;
+display: flex;
 color:aliceblue;
 padding: 8px 8px;
 text-decoration: none;
@@ -75,14 +73,15 @@ text-decoration: none;
 ul.homenav {
   float:left;
   display: flex;
-=======
-.Home{
-  height: 75px;
-  font-size: 50px;
-  float: Left;
-  display: block;
->>>>>>> 373f57bc9eeee49229a30fb8480b524ea8f6aa50
   list-style-type: none;
   margin: 0;
-  background-color: gray;
+  background-color: gray;}
+
+  ul.homenav li a:hover {
+  height: 75px;
+  background-color: #ffffff;
+  color: rgb( 222, 184, 135);
+  background-color: black;
+  color: white;
+
 }
