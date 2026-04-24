@@ -59,8 +59,8 @@ ul.topnav li a {
 
 ul.topnav li a:hover {
   height: 75px;
-  background-color: #000000;
-  color: rgb( 222, 184, 135);
+  background-color: black;
+  color: white;
 }
 
 h1 { 
@@ -69,8 +69,8 @@ h1 {
 .Home{
   height: 75px;
   font-size: 50px;
-  float: Left;
-  display: blcok;
+  position: Left;
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 7px 5px;
