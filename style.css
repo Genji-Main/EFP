@@ -31,29 +31,23 @@ footer {
   font-family: nunito;
 }
 
-nav {
-  height: 75px;
-  background-color: #000000;
-
+ul.topnav li a {
+display: block;
+color:aliceblue;
+padding: 8px 8px;
+text-decoration: none;
 }
+
 ul.topnav {
-  height: 75px;
-  font-size: 50px;
-  float: right;
+  float:right;
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  background-color: #000000;
+  background-color: gray;
 }
-
-
-ul.topnav li a {
-  height: 75px;
-  display: block;
-  color: rgb( 222, 184, 135);
-  padding: 7px 5px;
-  text-decoration: none;
+nav {
+  height: 72px;
+  padding-bottom: 0;
 }
 
 
@@ -62,24 +56,33 @@ ul.topnav li a:hover {
 <<<<<<< HEAD
   background-color: #ffffff;
   color: rgb( 222, 184, 135);
-=======
+
   background-color: black;
   color: white;
->>>>>>> a296957744101fcf0d346864e5a68f31f0fdb31f
+
 }
 
 h1 { 
   margin-top: 0px;
+} 
+ul.homenav li a {
+display: block;
+color:aliceblue;
+padding: 8px 8px;
+text-decoration: none;
 }
+
+ul.homenav {
+  float:left;
+  display: flex;
+=======
 .Home{
   height: 75px;
   font-size: 50px;
   float: Left;
   display: block;
+>>>>>>> 373f57bc9eeee49229a30fb8480b524ea8f6aa50
   list-style-type: none;
   margin: 0;
-  padding: 7px 5px;
-  background-color: #000000;
-  text-decoration: none;
-
+  background-color: gray;
 }
