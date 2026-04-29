@@ -115,3 +115,12 @@ h1 {
   font-size: 50px;
   cursor: pointer;
 }
+h2 {
+  background-color: rgb(40, 40, 40);
+  padding: 10px;
+  text-align: center;
+  color: blanchedalmond;
+  font-family: nunito;
+
+
+}
