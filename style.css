@@ -13,6 +13,11 @@ color: rgb( 222, 184, 135);
 background-color: rgb(40, 40, 40);
 }
 
+title {
+  text-align: center;
+  
+}
+
 header {
 float: center;
 font-family: nunito;
