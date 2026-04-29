@@ -119,9 +119,8 @@ h2 {
   background-color: rgb(40, 40, 40);
   padding: 10px;
   text-align: center;
-  color: blanchedalmond;
   font-family: nunito;
 font-size:90px;
-
+-webkit-text-stroke: 4px black; color: blanchedalmond;
 
 }
