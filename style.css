@@ -1,5 +1,5 @@
 body {
-  size: flex;
+  size: 600px;
   font-family: nunito;
 background-color: rgb(40, 40, 40);
 font-size: 3.0rem;
@@ -9,6 +9,7 @@ margin: 0px;
 p {
 font-family: nunito;
 font-size: 3.0rem;
+font-style: bold;
 color: rgb( 222, 184, 135);
 background-color: rgb(40, 40, 40);
 }
