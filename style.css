@@ -1,5 +1,5 @@
 body {
-  size: 100px;
+  size: flex;
   font-family: nunito;
 background-color: rgb(40, 40, 40);
 font-size: 3.0rem;
@@ -36,7 +36,6 @@ footer {
   padding: 10px;
   text-align: center;
   font-family: nunito;
-  min-height:2000px;
   -webkit-text-stroke: 2px black; color: blanchedalmond;
 }
 
