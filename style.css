@@ -69,7 +69,7 @@ nav {
 ul.topnav li a:hover {
   height: 65px;
   color:  var(--text-color);
-  background-color: rgb(14, 43, 187);
+  background-color: var(--hover-color);
   font-size: 50px;
   border-bottom: 2px;
   border-color: var(--text-border);
@@ -137,6 +137,7 @@ font-size:115px;
 
 /* 1. Define your variables for Light Mode */
 :root {
+   --hover-color: #1a1a1a;
   --bg-color: #ffffff;
   --btn-bg:  #1a1a1a;
   --text-color: blanchedalmond;
@@ -147,6 +148,7 @@ font-size:115px;
 
 /* 2. Define colors for Dark Mode */
 .dark-mode {
+  --hover-color: #ffffff;
   --bg-color: #1a1a1a;
   --btn-bg:  #ffffff;
   --text-color: blanchedalmond;
