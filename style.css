@@ -1,7 +1,7 @@
 body {
   size: flex;
   font-family: nunito;
-background-color: rgb(40, 40, 40);
+background-color: rgb(0, 0, 0);
 font-size: 3.0rem;
 margin: 0px;
 }
@@ -68,7 +68,7 @@ nav {
 
 ul.topnav li a:hover {
   height: 65px;
-  color: rgb(0, 0, 0);
+  color:  rgb(222, 184, 135);
   background-color: rgb(255, 255, 255);
   font-size: 50px;
   border-bottom: 2px;
@@ -130,6 +130,6 @@ h2 {
   text-align: center;
   font-family: nunito;
 font-size:115px;
--webkit-text-stroke: 4px black; color: blanchedalmond;
+-webkit-text-stroke: 4px burlywood; color: blanchedalmond;
 
 }
