@@ -156,12 +156,6 @@ font-size:115px;
 }
 
 /* 3. Apply variables to your elements */
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: sans-serif;
-  transition: 0.3s; /* Smooth fade between modes */
-}
 
 button {
   background-color: var(--btn-bg);
@@ -171,3 +165,4 @@ button {
   cursor: pointer;
   border-radius: 5px;
 }
+var(--bg-color)
