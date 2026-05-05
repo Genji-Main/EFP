@@ -142,7 +142,7 @@ font-size:115px;
 :root {
    --hover-color: #1a1a1a;
   --bg-color: #ffffff;
-  --btn-bg:  #1a1a1a;
+  --btn-bg:  burlywood;
   --text-color: burlywood;
   --text-border: rgb(0, 0, 0);
   --btn-text: blanchedalmond;
@@ -152,8 +152,8 @@ font-size:115px;
 /* 2. Define colors for Dark Mode */
 .dark-mode {
   --hover-color: #ffffff;
-  --bg-color: #1a1a1a;
-  --btn-bg:  #ffffff;
+  --bg-color: rgb(0, 0, 0);
+  --btn-bg:  burlywood;
   --text-color: burlywood;
   --text-border: rgb(0, 0, 0);
   --btn-text: blanchedalmond;
