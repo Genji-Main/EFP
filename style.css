@@ -78,8 +78,6 @@ ul.topnav li a:hover {
 
 h1 { 
   margin-top: 0px;
-  border-bottom: 2px;
-  border-color: burlywood;
 } 
 /* Responsive Grid Gallery */
 .gallery {
@@ -142,9 +140,9 @@ font-size:115px;
 :root {
    --hover-color: #1a1a1a;
   --bg-color: #ffffff;
-  --btn-bg:  rgb(0, 0, 0);
-  --text-color: burlywood;
-  --text-border: rgb(0, 0, 0);
+  --btn-bg:  #1a1a1a;
+  --text-color: blanchedalmond;
+  --text-border: burlywood;
   --btn-text: blanchedalmond;
   --btn-border: burlywood;
 }
@@ -152,10 +150,10 @@ font-size:115px;
 /* 2. Define colors for Dark Mode */
 .dark-mode {
   --hover-color: #ffffff;
-  --bg-color: rgb(0, 0, 0);
-  --btn-bg:  rgb(255, 255, 255);
-  --text-color: burlywood;
-  --text-border: rgb(0, 0, 0);
+  --bg-color: #1a1a1a;
+  --btn-bg:  #ffffff;
+  --text-color: blanchedalmond;
+  --text-border: burlywood;
   --btn-text: blanchedalmond;
   --btn-border: burlywood;
 }
@@ -165,7 +163,7 @@ font-size:115px;
 button {
   background-color: var(--btn-bg);
   color: var(--btn-text);
-  border: var(--btn-border);
+  border: none;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
