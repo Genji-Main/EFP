@@ -133,3 +133,41 @@ font-size:115px;
 -webkit-text-stroke: 4px burlywood; color: blanchedalmond;
 
 }
+
+
+/* 1. Define your variables for Light Mode */
+:root {
+  --bg-color: #ffffff;
+  --btn-bg:  #1a1a1a;
+  --text-color: blanchedalmond;
+  --text-border: burlywood;
+  --btn-text: blanchedalmond;
+  --btn-border: burlywood;
+}
+
+/* 2. Define colors for Dark Mode */
+.dark-mode {
+  --bg-color: #1a1a1a;
+  --btn-bg:  #ffffff;
+  --text-color: blanchedalmond;
+  --text-border: burlywood;
+  --btn-text: blanchedalmond;
+  --btn-border: burlywood;
+}
+
+/* 3. Apply variables to your elements */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  transition: 0.3s; /* Smooth fade between modes */
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
