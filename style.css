@@ -78,6 +78,8 @@ ul.topnav li a:hover {
 
 h1 { 
   margin-top: 0px;
+  border-bottom: 2px;
+  border-color: burlywood;
 } 
 /* Responsive Grid Gallery */
 .gallery {
@@ -142,7 +144,7 @@ font-size:115px;
   --bg-color: #ffffff;
   --btn-bg:  #1a1a1a;
   --text-color: blanchedalmond;
-  --text-border: burlywood;
+  --text-border: rgb(0, 0, 0);
   --btn-text: blanchedalmond;
   --btn-border: burlywood;
 }
@@ -153,7 +155,7 @@ font-size:115px;
   --bg-color: #1a1a1a;
   --btn-bg:  #ffffff;
   --text-color: blanchedalmond;
-  --text-border: burlywood;
+  --text-border: rgb(0, 0, 0);
   --btn-text: blanchedalmond;
   --btn-border: burlywood;
 }
