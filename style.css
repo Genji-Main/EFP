@@ -142,7 +142,7 @@ font-size:115px;
 :root {
    --hover-color: #1a1a1a;
   --bg-color: #ffffff;
-  --btn-bg:  burlywood;
+  --btn-bg:  rgb(0, 0, 0);
   --text-color: burlywood;
   --text-border: rgb(0, 0, 0);
   --btn-text: blanchedalmond;
@@ -153,7 +153,7 @@ font-size:115px;
 .dark-mode {
   --hover-color: #ffffff;
   --bg-color: rgb(0, 0, 0);
-  --btn-bg:  burlywood;
+  --btn-bg:  rgb(255, 255, 255);
   --text-color: burlywood;
   --text-border: rgb(0, 0, 0);
   --btn-text: blanchedalmond;
@@ -165,7 +165,7 @@ font-size:115px;
 button {
   background-color: var(--btn-bg);
   color: var(--btn-text);
-  border: none;
+  border: var(--btn-border);
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
