@@ -54,7 +54,7 @@ ul.topnav {
   display: flex;
   list-style-type: none;
   margin: 0;
-  background-color: var(--bg-color);
+  background-color: var(--navbg-color);
   font-size: 50px;
   border-bottom: 2px;
   border-color: rgb(222, 184, 135);
@@ -138,24 +138,26 @@ font-size:115px;
 
 /* 1. Define your variables for Light Mode */
 :root {
-   --hover-color: #1a1a1a;
+   --hover-color: #ffffff;
   --bg-color: #ffffff;
   --btn-bg:  #1a1a1a;
   --text-color: blanchedalmond;
   --text-border: burlywood;
   --btn-text: blanchedalmond;
   --btn-border: burlywood;
+    --navbg-color: #1a1a1a;
 }
 
 /* 2. Define colors for Dark Mode */
 .dark-mode {
-  --hover-color: #ffffff;
+  --hover-color: #1a1a1a;
   --bg-color: #1a1a1a;
   --btn-bg:  #ffffff;
   --text-color: blanchedalmond;
   --text-border: burlywood;
   --btn-text: blanchedalmond;
   --btn-border: burlywood;
+  --navbg-color: #ffffff;
 }
 
 /* 3. Apply variables to your elements */
